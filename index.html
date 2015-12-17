@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>custom Directive With Sorting</title>
+
+   <script src="libs/angular.min.js"></script>
+    <script src="libs/angular-mocks.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+    <script src="service/jsonservice.js"></script>
+    <script src="directives/tableDirective.js"></script>
+    <script src="controllers/tableController.js"></script>
+</head>
+<body>
+    <div ng-app="customDirectiveWithSorting">
+        <div ng-view>
+            <div ng-table></div>
+        </div>
+        <!--<div ng-sparkline></div>-->
+    </div>
+</body>
+</html>
